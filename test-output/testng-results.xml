@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-24T21:34:38 IST" name="Suite" finished-at="2024-03-24T21:40:34 IST" duration-ms="356487">
+    <groups>
+    </groups>
+    <test started-at="2024-03-24T21:34:38 IST" name="Test" finished-at="2024-03-24T21:40:34 IST" duration-ms="356487">
+      <class name="com.test.SpiceJetTest">
+        <test-method is-config="true" signature="brokenUrlCheck()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:34:38 IST" name="brokenUrlCheck" finished-at="2024-03-24T21:34:39 IST" duration-ms="1202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenUrlCheck -->
+        <test-method is-config="true" signature="launchSite()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:34:39 IST" name="launchSite" finished-at="2024-03-24T21:34:45 IST" duration-ms="5805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method signature="signUp_TC01()[pri:1, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:34:45 IST" name="signUp_TC01" finished-at="2024-03-24T21:35:38 IST" duration-ms="53784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp_TC01 -->
+        <test-method is-config="true" signature="closeSite()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:35:38 IST" name="closeSite" finished-at="2024-03-24T21:35:39 IST" duration-ms="503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSite -->
+        <test-method is-config="true" signature="launchSite()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:35:39 IST" name="launchSite" finished-at="2024-03-24T21:35:45 IST" duration-ms="5826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method signature="signUp_MandCheck_TC02()[pri:2, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:35:45 IST" name="signUp_MandCheck_TC02" finished-at="2024-03-24T21:35:56 IST" duration-ms="10911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp_MandCheck_TC02 -->
+        <test-method is-config="true" signature="closeSite()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:35:56 IST" name="closeSite" finished-at="2024-03-24T21:35:56 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSite -->
+        <test-method is-config="true" signature="launchSite()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:35:56 IST" name="launchSite" finished-at="2024-03-24T21:36:01 IST" duration-ms="4955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method signature="login_Email_TC03()[pri:3, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:36:01 IST" name="login_Email_TC03" finished-at="2024-03-24T21:36:16 IST" duration-ms="15299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Email_TC03 -->
+        <test-method is-config="true" signature="closeSite()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:36:16 IST" name="closeSite" finished-at="2024-03-24T21:36:16 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSite -->
+        <test-method is-config="true" signature="launchSite()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:36:16 IST" name="launchSite" finished-at="2024-03-24T21:36:21 IST" duration-ms="4894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method signature="login_Mobile_TC04()[pri:4, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:36:21 IST" name="login_Mobile_TC04" finished-at="2024-03-24T21:36:33 IST" duration-ms="11635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Mobile_TC04 -->
+        <test-method is-config="true" signature="closeSite()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:36:33 IST" name="closeSite" finished-at="2024-03-24T21:36:33 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSite -->
+        <test-method is-config="true" signature="launchSite()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:36:33 IST" name="launchSite" finished-at="2024-03-24T21:36:39 IST" duration-ms="5812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method signature="pageFieldValidation_TC05()[pri:5, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:36:39 IST" name="pageFieldValidation_TC05" finished-at="2024-03-24T21:36:39 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageFieldValidation_TC05 -->
+        <test-method is-config="true" signature="closeSite()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:36:39 IST" name="closeSite" finished-at="2024-03-24T21:36:39 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSite -->
+        <test-method is-config="true" signature="launchSite()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:36:39 IST" name="launchSite" finished-at="2024-03-24T21:36:51 IST" duration-ms="11713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method signature="oneWayFlight_TC06()[pri:6, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:36:51 IST" name="oneWayFlight_TC06" finished-at="2024-03-24T21:37:44 IST" duration-ms="52986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneWayFlight_TC06 -->
+        <test-method is-config="true" signature="closeSite()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:37:44 IST" name="closeSite" finished-at="2024-03-24T21:37:44 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSite -->
+        <test-method is-config="true" signature="launchSite()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:37:44 IST" name="launchSite" finished-at="2024-03-24T21:37:50 IST" duration-ms="5385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method signature="roundTripFlight_TC07()[pri:7, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:37:50 IST" name="roundTripFlight_TC07" finished-at="2024-03-24T21:38:50 IST" duration-ms="60307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roundTripFlight_TC07 -->
+        <test-method is-config="true" signature="closeSite()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:38:50 IST" name="closeSite" finished-at="2024-03-24T21:38:50 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSite -->
+        <test-method is-config="true" signature="launchSite()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:38:50 IST" name="launchSite" finished-at="2024-03-24T21:38:55 IST" duration-ms="5401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method signature="login_IncorrectEmail_TC08()[pri:8, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:38:55 IST" name="login_IncorrectEmail_TC08" finished-at="2024-03-24T21:39:09 IST" duration-ms="13472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_IncorrectEmail_TC08 -->
+        <test-method is-config="true" signature="closeSite()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:39:09 IST" name="closeSite" finished-at="2024-03-24T21:39:09 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSite -->
+        <test-method is-config="true" signature="launchSite()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:39:09 IST" name="launchSite" finished-at="2024-03-24T21:39:14 IST" duration-ms="4897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method signature="login_IncorrectMobile_TC09()[pri:9, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:39:14 IST" name="login_IncorrectMobile_TC09" finished-at="2024-03-24T21:39:24 IST" duration-ms="10396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_IncorrectMobile_TC09 -->
+        <test-method is-config="true" signature="closeSite()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:39:24 IST" name="closeSite" finished-at="2024-03-24T21:39:25 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSite -->
+        <test-method is-config="true" signature="launchSite()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:39:25 IST" name="launchSite" finished-at="2024-03-24T21:39:31 IST" duration-ms="6401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method signature="login_IncorrectPassword_TC10()[pri:10, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:39:31 IST" name="login_IncorrectPassword_TC10" finished-at="2024-03-24T21:39:44 IST" duration-ms="13056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_IncorrectPassword_TC10 -->
+        <test-method is-config="true" signature="closeSite()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:39:44 IST" name="closeSite" finished-at="2024-03-24T21:39:44 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSite -->
+        <test-method is-config="true" signature="launchSite()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:39:44 IST" name="launchSite" finished-at="2024-03-24T21:39:50 IST" duration-ms="5299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method signature="login_mandMobileInput_TC11()[pri:11, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:39:50 IST" name="login_mandMobileInput_TC11" finished-at="2024-03-24T21:40:00 IST" duration-ms="9994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_mandMobileInput_TC11 -->
+        <test-method is-config="true" signature="closeSite()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:40:00 IST" name="closeSite" finished-at="2024-03-24T21:40:00 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSite -->
+        <test-method is-config="true" signature="launchSite()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:40:00 IST" name="launchSite" finished-at="2024-03-24T21:40:05 IST" duration-ms="5461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method signature="login_mandEmailInput_TC12()[pri:12, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:40:05 IST" name="login_mandEmailInput_TC12" finished-at="2024-03-24T21:40:17 IST" duration-ms="11979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_mandEmailInput_TC12 -->
+        <test-method is-config="true" signature="closeSite()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:40:17 IST" name="closeSite" finished-at="2024-03-24T21:40:17 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSite -->
+        <test-method is-config="true" signature="launchSite()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:40:17 IST" name="launchSite" finished-at="2024-03-24T21:40:23 IST" duration-ms="5178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method signature="login_mandPaswrdInput_TC13()[pri:13, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:40:23 IST" name="login_mandPaswrdInput_TC13" finished-at="2024-03-24T21:40:34 IST" duration-ms="11136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_mandPaswrdInput_TC13 -->
+        <test-method is-config="true" signature="closeSite()[pri:0, instance:com.test.SpiceJetTest@1b410b60]" started-at="2024-03-24T21:40:34 IST" name="closeSite" finished-at="2024-03-24T21:40:34 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSite -->
+      </class> <!-- com.test.SpiceJetTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
