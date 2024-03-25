@@ -105,57 +105,57 @@ public class Utility {
 	public static void clickOnElementJS(WebElement element) throws Exception {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].scrollIntoView(true);", element);
-		Thread.sleep(2000);
+		waitForElement(element);
 		js.executeScript("arguments[0].click();", element);
 	}
 
 	// Click on Element
 	public static void clickOnElement(WebElement element) throws Exception {
-		Thread.sleep(2000);
+		waitForElement(element);
 		element.click();
 	}
 
 	// Send Input to textbox fields
 	public static void sendInput(WebElement element, String value) throws Exception {
-		Thread.sleep(1000);
+		waitForElement(element);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		scrollToElement(element);
 		js.executeScript("arguments[0].scrollIntoView(true);", element);
 		js.executeScript("arguments[0].click();", element);
-		Thread.sleep(2000);
+		waitForElement(element);
 		element.click();
 		element.sendKeys(value);
 	}
 
 	// Scroll to element using Javascript Executor
 	public static void scrollJS(WebElement element) throws Exception {
-		Thread.sleep(1000);
+		waitForElement(element);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].scrollIntoView(true);", element);
+		waitForElement(element);
 	}
 
 	// Scroll by Pixel using Javascript Executor
 	public static void scrollByPixel() throws Exception {
-		Thread.sleep(1000);
+		waitForElement(element);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(1000,1000)", "");
-		Thread.sleep(5000);
+		waitForElement(element);
 	}
 
 	// Select drop down by visible text
 	public static void selectDropDownByVisibleText(WebElement element, String value) throws Exception {
 
 		Select dropDown = new Select(element);
-		Thread.sleep(3000);
+		waitForElement(element);
 		dropDown.selectByVisibleText(value);
-		// dropDown.selectByIndex(2);
 	}
 
 	// Select drop down by value
 	public static void selectDropDownByValue(WebElement element, String value) throws Exception {
 
 		Select dropDown = new Select(element);
-		Thread.sleep(3000);
+		waitForElement(element);
 		dropDown.selectByValue(value);
 	}
 
@@ -163,7 +163,7 @@ public class Utility {
 	public static void selectDropDownByIndex(WebElement element, String value) throws Exception {
 
 		Select dropDown = new Select(element);
-		Thread.sleep(3000);
+		waitForElement(element);
 		dropDown.selectByIndex(Integer.valueOf(value));
 	}
 
